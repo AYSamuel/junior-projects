@@ -6,7 +6,9 @@ function Todos() {
       <h1 className='text-xl text-white underline text-center'>Tasks</h1>
       <div className='relative group my-5'>
         <div className='bg-white mx-5 rounded-md flex flex-col p-2 group-hover:opacity-85 transition-opacity'>
-          <h3 className=''>Title</h3>
+          <h3 className=''>
+            Title | <span className='text-sm font-light'>Due Date</span>
+          </h3>
           <p className=''>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -53,7 +55,9 @@ function Todos() {
       </div>
       <div className='relative group my-5'>
         <div className='bg-white mx-5 rounded-md flex flex-col p-2 group-hover:opacity-85 transition-opacity'>
-          <h3 className=''>Title</h3>
+          <h3 className=''>
+            Title | <span className='text-sm font-light'>Due Date</span>
+          </h3>
           <p className=''>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -100,7 +104,9 @@ function Todos() {
       </div>
       <div className='relative group my-5'>
         <div className='bg-white mx-5 rounded-md flex flex-col p-2 group-hover:opacity-85 transition-opacity'>
-          <h3 className=''>Title</h3>
+          <h3 className=''>
+            Title | <span className='text-sm font-light'>Due Date</span>
+          </h3>
           <p className=''>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
