@@ -2,9 +2,10 @@ import React from 'react';
 
 function Create() {
   return (
-    <div className='bg-white mx-5 my-10 p-4 rounded-md'>
+    <div className='bg-white mx-5 my-10 p-4 rounded-sm'>
       <form className='flex flex-col  gap-2'>
         <input
+          type='text'
           name='title'
           placeholder='Title'
           required
@@ -15,6 +16,13 @@ function Create() {
           placeholder='Description'
           required
           className='rounded-md focus:border-green-600 h-28'
+        />
+        <input
+          type='date'
+          name='date'
+          placeholder='Enter due date'
+          required
+          className='rounded-md focus:border-green-600 p-1'
         />
         <button className='bg-green-600 rounded hover:opacity-70 active:bg-green-600 text-white'>Save</button>
       </form>
