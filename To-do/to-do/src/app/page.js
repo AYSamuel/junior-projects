@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Header />
       <Navbar />
-      <div className='flex flex-col'>
+      <div className='flex xs:flex-col lgl:flex-row lgl:mt-10'>
         <Create />
         <Todos />
       </div>
