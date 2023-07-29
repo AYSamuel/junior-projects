@@ -2,7 +2,7 @@ import React from 'react';
 
 function Create() {
   return (
-    <div className='mx-5 my-10  md:mx-20 lg:mx-2 lgl:w-3/4 lgl:h-full'>
+    <div className='mx-5 my-10 md:mx-20 lg:mx-2 lgl:w-3/4 lgl:h-full'>
       <h1 className='text-xl text-white underline text-center'>Create Task</h1>
       <div className='bg-white p-4 rounded-sm shadow-navbarShadow mt-3'>
         <form className='flex flex-col gap-2'>
