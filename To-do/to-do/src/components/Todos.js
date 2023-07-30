@@ -1,6 +1,12 @@
+'use client';
+import { useEffect } from 'react';
 import React from 'react';
+import { useRouter } from 'next/navigation';
 
-function Todos() {
+function Todos(taskData) {
+  const router = useRouter();
+
+  useEffect(() => {});
   return (
     <div className=''>
       <h1 className='text-xl text-white underline text-center'>Tasks</h1>
@@ -53,7 +59,7 @@ function Todos() {
           </div>
         </div>
       </div>
-      <div className='relative group my-5 '>
+      {/* <div className='relative group my-5 '>
         <div className='bg-white mx-5 rounded-md flex flex-col p-2 group-hover:opacity-85 transition-opacity shadow-navbarShadow'>
           <h3 className=''>
             Title | <span className='text-sm font-light'>Due Date</span>
@@ -248,7 +254,7 @@ function Todos() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
