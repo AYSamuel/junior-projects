@@ -51,7 +51,14 @@ const Create = () => {
     setTasks(tasksList);
   };
 
-  const completeTask = () => {};
+  const completeTask = index => {
+    //if a task has been completed, on clicking this button, the task should be change opacity and pushed to the end of the array
+    // Clone the tasks array
+    const tasksList = [...tasks];
+    const taskToPush = tasksList.splice(index, 1);
+    tasksList.push(taskToPush);
+    setTasks(tasksList);
+  };
 
   return (
     <div className='flex xs:flex-col lgl:flex-row lgl:mt-10'>
